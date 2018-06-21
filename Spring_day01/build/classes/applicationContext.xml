@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.springframework.org/schema/beans" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.2.xsd ">
+
+
+
+	<!--将user对象给spring容器管理 -->
+	<!-- bean元素：使用该元素描述需要spring容器管理的对象 
+			name：名字。
+			class属性：被管理对象的完整类名
+			id属性:名称不能重复，不能使用特殊字符-->
+	<bean name="user" class="cn.tao.bean.User"></bean>
+</beans>
